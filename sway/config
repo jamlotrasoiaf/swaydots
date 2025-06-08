@@ -246,7 +246,7 @@ for_window [app_id="firefox" title="^Picture-in-Picture$"] \
     floating enable, move position 877 100, sticky enable
 
 for_window [app_id="cava"] \
-    floating enable, move position 877 100, sticky enable
+    floating enable, resize set 450 250, move position 877 100, sticky enable
 
 #
 #No titlebars
@@ -257,6 +257,7 @@ gaps outer 2
 default_border pixel 0
 default_floating_border pixel 0
 
+xwayland enable
 seat seat0 xcursor_theme catppuccin-mocha-dark-cursors 24
 
 include /etc/sway/config.d/*
