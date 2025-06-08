@@ -25,30 +25,30 @@ window#waybar.empty #window {
 
 #workspaces button {
     padding: 0px;
-    background: @sapphire;
+    background: @subtext0;
     color: @base;
     /* margin-right: 5px; */
 }
 
 #workspaces button.active {
-    background: @sapphire;
+    background: @subtext0;
 }
 
 #workspaces button.focused {
-    background: @sapphire;
+    background: @subtext0;
     color: @base;
     /* border-radius: 10px; */
 }
 
 #workspaces button.urgent {
-    background: @red;
-    color: @base;
+    background: @subtext0;
+    color: @red;
     /* border-radius: 10px; */
 }
 
 #workspaces button:hover {
     color: @crust;
-    background: @sky; 
+    background: @overlay2; 
     /* border-radius: 10px; */
 }
 
@@ -81,7 +81,7 @@ window#waybar.empty #window {
 
 #backlight {
     /* border-radius: 10px 0px 0px 10px; */
-    background: @green;
+    background: @subtext1;
     border-bottom: 0px;
 }
 
@@ -89,6 +89,7 @@ window#waybar.empty #window {
     /* border-radius: 10px; */
     /* margin-right: 10px; */
     border-top: 0px;
+    background: @subtext1;
 }
 
 #workspaces {
@@ -97,53 +98,53 @@ window#waybar.empty #window {
 
 #cpu {
     /* border-radius: 0px 10px 10px 0px; */
-    color: @maroon;
+    color: @overlay2;
     border-bottom: 0px;
 }
 
 #memory {
     /* border-radius: 10px 0px 0px 10px; */
-    color: @red;
+    color: @overlay1;
     border-bottom: 0px;
     margin-top: 5px;
 }
 
 #window {
-    background: @yellow;
+    background: @text;
 }
 
 #clock {
     /* border-radius: 10px 10px 10px 10px; */
-    background: @blue;
+    background: @overlay2;
 }
 
 #network {
-    color: @peach;
+    color: @subtext0;
     /* border-radius: 10px 0px 0px 10px; */
     border-bottom: 0px;
 }
 
 #pulseaudio {
-    background: @teal;
+    background: @subtext0;
     border-bottom: 0px;
 }
 
 #pulseaudio.microphone {
-    background: @sky;
+    background: @overlay2;
     /* border-radius: 0px 10px 10px 0px; */
 }
 
 #battery {
-    color: @yellow;
+    color: @subtext1;
     /* border-radius: 0px 10px 10px 0px; */
 }
 
 #custom-spotify {
-    color: @green;
+    color: @text;
 }
 
 #custom-logout {
-    color: @sky;
+    color: @subtext1;
     margin-bottom: 5px;
 }
 
