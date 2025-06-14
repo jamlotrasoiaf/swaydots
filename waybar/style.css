@@ -53,7 +53,7 @@ window#waybar.empty #window {
 }
 
 #battery,
-#network,
+#temperature,
 #cpu,
 #memory,
 #custom-spotify,
@@ -118,7 +118,7 @@ window#waybar.empty #window {
     background: @overlay2;
 }
 
-#network {
+#temperature {
     color: @subtext0;
     /* border-radius: 10px 0px 0px 10px; */
     border-bottom: 0px;
