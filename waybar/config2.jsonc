@@ -110,8 +110,7 @@
         "format": "{temperatureC}󰔄 {icon}",
         "format-alt": "{temperatureF}󰔅 {icon}",
         "format-icons": ["", "", "", "", ""],
-        "tooltip": true,
-        "tooltip-format": "Cel {temperatureC}󰔄 {icon}\nFah {temperatureF}󰔅 {icon}\nKel {temperatureK}󰔆 {icon}",
+        "tooltip": false,
 	"rotate": 90
     },
 

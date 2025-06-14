@@ -1,4 +1,4 @@
-# env variables
+#!/bin/sh
 
 export XCURSOR_THEME=catppuccin-mocha-dark-cursors
 export XCURSOR_SIZE=24
@@ -30,3 +30,6 @@ export CLUTTER_BACKEND=wayland
 export XDG_CURRENT_DESKTOP=sway
 export XDG_SESSION_TYPE=wayland
 export XDG_SESSION_DESKTOP=sway
+
+# launch sway
+exec sway "$@"
