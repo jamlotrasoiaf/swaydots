@@ -64,7 +64,7 @@ input "1739:33381:SYNA3064:00_06CB:8265_Touchpad" {
 # Read `man 5 sway-input` for more information about this section.
 
 # Startup programs
-exec $HOME/.config/waybar/launch_sway.sh
+exec_always source ~/.profile
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec mako
 exec wl-paste --watch cliphist store
