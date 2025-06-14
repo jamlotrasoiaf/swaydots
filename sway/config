@@ -71,6 +71,7 @@ exec wl-paste --watch cliphist store
 exec udiskie
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 exec $HOME/.config/sway/env_var.sh
+exec_always nm-applet --indicator
 
 ### Key bindings
 #
