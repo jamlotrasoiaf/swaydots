@@ -9,7 +9,6 @@ export MOZ_ENABLE_WAYLAND=1
 
 # Nvidia
 export ELECTRON_OZONE_PLATFORM_HINT=auto
-export DISPLAY=wine
 
 # QT
 export QT_QPA_PLATFORM=wayland
@@ -23,8 +22,8 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 # Toolkit Backend Variables
 export GDK_BACKEND=wayland,x11,*
-export SDL_VIDEODRIVER=wayland
-export CLUTTER_BACKEND=wayland
+export SDL_VIDEODRIVER=wayland,x11,*
+export CLUTTER_BACKEND=wayland,x11,*
 
 # XDG Specifications
 export XDG_CURRENT_DESKTOP=sway

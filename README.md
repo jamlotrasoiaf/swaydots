@@ -7,7 +7,7 @@ my sway dots. kinda ugly
 - Fonts: `ttf-fira-sans ttf-hack-nerd ttf-nerd-fonts-symbols noto-fonts noto-fonts-cjk noto-fonts-emoji`
 - Display Manager: `ly`
 - Web Browser: `firefox`
-- Terminal Emulator: `kitty`
+- Terminal Emulator: `foot`
 - Text Editor: `nano`
 - File Manager: `nautilus`
 - Compositor: `sway`

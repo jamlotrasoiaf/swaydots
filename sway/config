@@ -64,13 +64,12 @@ input "1739:33381:SYNA3064:00_06CB:8265_Touchpad" {
 # Read `man 5 sway-input` for more information about this section.
 
 # Startup programs
-exec_always source ~/.profile
+exec_always ~/.config/waybar/launch_sway.sh
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec mako
 exec wl-paste --watch cliphist store
 exec udiskie
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
-exec $HOME/.config/sway/env_var.sh
 exec_always nm-applet --indicator
 
 ### Key bindings
