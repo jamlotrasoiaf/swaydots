@@ -9,8 +9,8 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias warpon='warp-cli connect'
-alias warpoff='warp-cli disconnect && systemctl restart systemd-resolved'
-alias clear-cache='mv ~/.cache/spotify* ~ && mv ~/.cache/cliphist ~ && mv ~/.cache/blesh ~ && sudo rm -rf /var/cache/* ~/.cache/* && mv ~/spotify* ~/cliphist ~/blesh ~/.cache'
+alias warpoff='warp-cli disconnect && sudo systemctl restart systemd-resolved'
+alias clear-cache='sudo rm -rf /var/cache/* ~/.cache/yay/ ~/.cache/winetricks/'
 alias remove-unused='sudo pacman -Qdtq | sudo pacman -Rns -'
 PS1='[\u@\h \W]\$ '
 
